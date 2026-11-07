@@ -1,0 +1,21 @@
+CROSS-REGION PING
+20 packets transmitted, 20 received, 0% packet loss, time 19023ms
+rtt min/avg/max/mdev = 151.067/151.246/152.958/0.399 ms
+CROSS-REGION REST
+Running 100 reps against http://10.156.0.2:5000
+Took 309.7453044400004 ms per operation
+Running 100 reps against http://10.156.0.2:5000
+Took 309.1289837199997 ms per operation
+Running 100 reps against http://10.156.0.2:5000
+Took 1589.2089001800014 ms per operation
+Running 100 reps against http://10.156.0.2:5000
+Took 1480.9197112300012 ms per operation
+CROSS-REGION gRPC
+Running 100 reps against 10.156.0.2:50051
+Took 161.7104191899989 ms per operation
+Running 100 reps against 10.156.0.2:50051
+Took 150.2016379099996 ms per operation
+Running 100 reps against 10.156.0.2:50051
+Took 193.22593396999764 ms per operation
+Running 100 reps against 10.156.0.2:50051
+Took 217.94106654999723 ms per operation

@@ -1,0 +1,21 @@
+SAME-ZONE REST
+Running 1000 reps against http://10.138.0.15:5000
+Took 3.2521164080000062 ms per operation
+Running 1000 reps against http://10.138.0.15:5000
+Took 3.8871989959999382 ms per operation
+Running 100 reps against http://10.138.0.15:5000
+Took 8.467895689999523 ms per operation
+Running 100 reps against http://10.138.0.15:5000
+Took 39.97982795999974 ms per operation
+SAME-ZONE gRPC
+Running 1000 reps against 10.138.0.15:50051
+Took 1.2495993449999787 ms per operation
+Running 1000 reps against 10.138.0.15:50051
+Took 1.3069732550000026 ms per operation
+Running 100 reps against 10.138.0.15:50051
+Took 14.493832940000857 ms per operation
+Running 100 reps against 10.138.0.15:50051
+Took 34.57216957000014 ms per operation
+SAME-ZONE PING
+20 packets transmitted, 20 received, 0% packet loss, time 19445ms
+rtt min/avg/max/mdev = 0.232/0.341/1.361/0.236 ms

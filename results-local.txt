@@ -1,0 +1,22 @@
+LOCAL REST
+LOCAL REST
+Running 1000 reps against http://localhost:5000
+Took 2.562981092999962 ms per operation
+Running 1000 reps against http://localhost:5000
+Took 3.056320463999782 ms per operation
+Running 100 reps against http://localhost:5000
+Took 6.503371380003955 ms per operation
+Running 100 reps against http://localhost:5000
+Took 41.67831054000089 ms per operation
+LOCAL gRPC
+Running 1000 reps against localhost:50051
+Took 0.7990069110001059 ms per operation
+Running 1000 reps against localhost:50051
+Took 0.8548156140000174 ms per operation
+Running 100 reps against localhost:50051
+Took 12.31387383999845 ms per operation
+Running 100 reps against localhost:50051
+Took 32.91598939999858 ms per operation
+LOCAL PING
+20 packets transmitted, 20 received, 0% packet loss, time 19438ms
+rtt min/avg/max/mdev = 0.034/0.049/0.091/0.015 ms
